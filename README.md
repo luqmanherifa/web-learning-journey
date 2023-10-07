@@ -1,2 +1,2 @@
-# web-learning-journey
- 
+# Web Learning Journey
+
