@@ -1,0 +1,146 @@
+.footer {
+  width: 100%;
+  height: 100%;
+  background-color: #333333;
+}
+
+.content-footer {
+  max-width: 1440px;
+  margin: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: url(/img/bg-footer.png);
+  background-repeat: no-repeat;
+  background-position: inherit;
+  background-size: 670px auto;
+  background-position-x: 280px;
+  background-position-y: -78px;
+}
+
+.footer-group-1 {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 60px;
+  border-bottom: 2px solid rgb(255, 255, 255, 0.10);
+  margin: auto 60px;
+}
+
+.txt-footer p {
+  font-family: 'IBM Plex Sans';
+  color: white;
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 60px;
+  letter-spacing: 0.5px;
+  width: 500px;
+}
+
+.btn-footer {
+  margin-top: 65px;
+}
+
+.btn-footer a:nth-child(1) {
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1.3px;
+  padding: 15px 32px;
+  border-radius: 5px;
+  border: none;
+  margin-right: 40px;
+  background-image: linear-gradient(to bottom left, #FFF500, #FFC200);
+  text-shadow: 0px 0px 10px #D8A400;
+}
+
+.btn-footer a:nth-child(1):hover {
+  background-image: linear-gradient(to bottom right, #EBB300, #EBB300);
+}
+
+.btn-footer a:nth-child(2) {
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1.3px;
+  background: none;
+  border: none;
+}
+
+.btn-footer a:nth-child(2):hover {
+  color: #D6D6D6;
+}
+
+.footer-group-2 {
+  display: flex;
+  margin: auto 60px;
+  justify-content: space-between;
+  margin-top: 42px;
+}
+
+.icon-footer {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  height: 40px;
+}
+
+.icon-footer img {
+  width: 40px;
+  height: 40px;
+}
+
+.icon-footer a {
+  font-family: 'IBM Plex Sans';
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-right: 70px;
+}
+
+.link-footer {
+  display: flex;
+  gap: 100px;
+}
+
+.link-footer li a {
+  color: #B1B1B1;
+}
+
+.link-footer a {
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  color: #B1B1B1;
+}
+
+.link-footer-1 ul,
+.link-footer-2 ul,
+.link-footer-3 ul,
+.link-footer-4 ul {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.link-footer-1 li a:hover,
+.link-footer-2 li a:hover,
+.link-footer-3 li a:hover,
+.link-footer-4 li a:hover {
+  color: white;
+}
+
+.built {
+  background-color: #333333;
+  padding: 30px 0;
+}
+
+.built a {
+  font-size: 14px;
+  font-weight: 500;
+  color: #B1B1B1;
+  display: flex;
+  justify-content: center;
+}
+
+.built a:hover {
+  color: white;
+}

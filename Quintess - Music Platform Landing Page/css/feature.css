@@ -1,0 +1,111 @@
+.feature {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+
+.content-feature {
+  max-width: 1440px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 150px;
+}
+
+.feature-group-1 {
+  margin-left: 0px;
+}
+
+.feature-group-1 img {
+  width: 630px;
+}
+
+.feature-group-2 {
+  margin-right: 60px;
+  width: 540px;
+}
+
+.title-feature {
+  font-family: 'IBM Plex Sans';
+  color: #121212;
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 60px;
+  letter-spacing: 0.5px;
+  margin-bottom: 20px;
+}
+
+.accordion-1, .accordion-2, .accordion-3, .accordion-4 {
+  border-bottom: 3px solid #DEDEDE;
+}
+
+.accordion-1:hover, .accordion-2:hover, .accordion-3:hover, .accordion-4:hover {
+  border-bottom: 3px solid #121212;
+}
+
+.accordion-border-active {
+  border-bottom: 3px solid #121212;
+}
+
+.btn-accordion {
+  background-color: white;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transform: 0.4s;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 0;
+}
+
+.btn-accordion:hover > .btn-txt-accordion p:nth-child(2) {
+  font-weight: 600;
+}
+
+.btn-accordion-padding-active {
+  padding: 32px 0 16px 0;
+}
+
+.btn-txt-accordion {
+  display: flex;
+  align-items: center;
+}
+
+.btn-txt-accordion p:nth-child(1) {
+  margin-right: 36px;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: #A8A8A8;
+  width: 25px;
+}
+
+.btn-txt-accordion p:nth-child(2) {
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  color: #121212;
+}
+
+.panel-accordion {
+  padding: 0 61px 32px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.2s ease-out;
+}
+
+.panel-accordion p {
+  color: #A8A8A8;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
+
+.icon-color-black {
+  color: #121212;
+}

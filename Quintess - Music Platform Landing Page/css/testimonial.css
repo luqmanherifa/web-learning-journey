@@ -1,0 +1,105 @@
+.testimonial {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+
+.content-testimonial {
+  max-width: 1440px;
+  margin: auto;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background: url(/img/bg-testimonial.png);
+  background-repeat: no-repeat;
+  background-position: inherit;
+  background-size: 1320px auto;
+  background-position-x: left;
+  background-position-y: 250px;
+}
+
+.testimonial-group-1 {
+  margin-left: 60px;
+}
+
+.testimonial-group-1 p:nth-child(1) {
+  font-family: 'IBM Plex Sans';
+  color: #121212;
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 60px;
+  letter-spacing: 0.5px;
+  width: 500px;
+  margin-bottom: 128px;
+}
+
+.slide-testimonial {
+  display: flex;
+  align-items: flex-end;
+  margin: auto 60px;
+}
+
+.testimonial-group-2 {
+  display: flex;
+  gap: 110px;
+}
+
+.testimonial-group-2 img {
+  width: 420px;
+  box-shadow: 10px 10px #121212;
+}
+
+.txt-testimonial {
+  width: 500px;
+}
+
+.p-testimonial {
+  color: #121212;
+  font-size: 25px;
+  line-height: 40px;
+  letter-spacing: 0.5px;
+  width: 570px;
+  height: 260px;
+  margin-bottom: 40px;
+}
+
+.profile-testimonial {
+  height: 60px;
+}
+
+.profile-testimonial p:nth-child(1) {
+  color: #121212;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-bottom: 5px;
+}
+
+.profile-testimonial p:nth-child(2) {
+  color: #959CA4;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+.btn-testimonial {
+  color: #121212;
+  display: flex;
+  gap: 16px;
+  margin-bottom: 20px;
+  height: 37px;
+  cursor: pointer;
+}
+
+.btn-testimonial a:nth-child(1):hover, .btn-testimonial a:nth-child(2):hover {
+  color: #FFC200;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.2s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
