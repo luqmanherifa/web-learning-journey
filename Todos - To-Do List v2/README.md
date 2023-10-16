@@ -3,4 +3,5 @@
 ### Display
 ![Display](https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/public/works/todosv2.png)
 
+- Deployment: [todosv2-luqmanherifa.netlify.app](https://todosv2-luqmanherifa.netlify.app)
 - Date created: January 2023
