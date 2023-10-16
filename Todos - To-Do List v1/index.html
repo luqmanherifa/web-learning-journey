@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>To Do List</title>
+  </head>
+  <body>
+    <div class="center">
+      <div class="w-380 bg-slate center py position">
+        <div class="w-320">
+          <h1 class="center">To Do List</h1>
+          <hr class="mb-70" />
+          <div>
+            <form name="todoform">
+              <table>
+                <tbody>
+                  <tr>
+                    <th><label class="w-70 block">Input</label></th>
+                    <td>
+                      <input type="text" id="todo" name="todo" />
+                    </td>
+                    <!-- <td><input type="submit" value="Add" /></td> -->
+                  </tr>
+                </tbody>
+              </table>
+            </form>
+          </div>
+          <div>
+            <table>
+              <thead>
+                <tr>
+                  <th><label class="w-70 block mb-20">Search</label></th>
+                  <th>
+                    <input
+                      type="text"
+                      name="search"
+                      id="search"
+                      class="mb-20"
+                    />
+                  </th>
+                </tr>
+              </thead>
+              <tbody id="todolistBody">
+                <tr>
+                  <td>To Do Description</td>
+                  <td><input type="button" value="Done" /></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

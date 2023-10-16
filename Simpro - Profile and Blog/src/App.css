@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  color: blue;
+}
+
+.app {
+  width: 415px;
+  margin: 0 auto;
+  background-color: white;
+  border: 1px solid #EEE;
+  min-height: 100vh;
+}
+
+@media (max-width: 415px) {
+  .app {
+    width: 100%;
+  }
+}
+
+.brand {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  padding: 20px 0;
+}
+
+.nav {
+  border-top: 1px solid #EEE;
+  border-bottom: 1px solid #EEE;
+  display: flex;
+}
+
+.nav-item {
+  display: inline-block;
+  flex: 1 1 0;
+  text-align: center;
+  padding: 14px 0;
+  color: #000;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.nav-item:hover {
+  color: blue;
+}
+
+.nav-item:not(:last-child) {
+  border-right: 1px solid #EEE;
+}
+
+.section {
+  padding: 30px;
+}
+
+.section-title {
+  margin-top: 0;
+}
+
+.section-description {
+  line-height: 26px;
+}
+
+.articles {
+  border-top: 1px solid #EEE;
+}
+
+.article {
+  border-bottom: 1px solid #EEE;
+  padding: 20px 0;
+}
+
+.article-bd {
+  padding: 0px 0;
+}
+
+.article-title {
+  margin-top: 0;
+}
+
+.article-title a {
+  color: #000;
+  text-decoration: none;
+}
+
+.article-title a:hover {
+  color: blue;
+}
+
+.article-time {
+  color: #999;
+  font-size: 12px;
+}
+
+.article-image {
+  max-width: 100%;
+  margin: 30px 0;
+}
+
+.article-summary {
+  line-height: 26px;
+  margin-top: 0;
+}
+
+.article-source {
+  color: #999;
+}
+
+.article-nf {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-list {
+  line-height: 26px;
+}
+
+.contact-item a {
+  color: #000;
+  text-decoration: none;
+}
+
+.contact-item a:hover {
+  color: blue;
+}
