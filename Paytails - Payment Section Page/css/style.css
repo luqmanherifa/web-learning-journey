@@ -1,0 +1,200 @@
+* {
+  /* outline: 1px solid red; */
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  color: #121212;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  letter-spacing: 0.3px;
+}
+
+body {
+  background-color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+
+/* Payment */
+.payment-container {
+  margin: 50px 25px 0 0;
+}
+
+.payment-title p {
+  font-weight: 800;
+  font-size: 36px;
+  letter-spacing: 0.5px;
+  margin-bottom: 50px;
+}
+
+.input-container {
+  margin-bottom: 25px;
+}
+
+label {
+  display: block;
+  color: #5A5A5A;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+input {
+  border-color: #D9D9D9;
+  border-radius: 8px;
+  width: 456px;
+  padding: 14px 20px;
+  font-weight: 500;
+  border-style: solid;
+}
+
+input:focus {
+  background-color: #FAFAFA;
+}
+
+input[type=date] {
+  color: #D3D3D3;
+  font-weight: 400;
+}
+
+::placeholder {
+  color: #D3D3D3;
+  font-weight: 400;
+}
+
+.half-input {
+  display: flex;
+  margin-bottom: 25px;
+  gap: 25px;
+}
+
+.half-input input {
+  width: 194px;
+}
+
+input[type=date] {
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+
+textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus {   
+  border-color: #FFC800;
+  outline: 0 none;
+}
+
+
+/* Promo */
+.promo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 50px 0;
+}
+
+.promo input {
+  margin: 0;
+  padding: 0;
+  width: 20px;
+  height: 20px;
+}
+
+.promo label {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  color: #121212;
+}
+
+button {
+  color: white;
+  background-color: #FFC800;
+  border: none;
+  border-radius: 10px;
+  padding: 16px 156px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+button:hover {
+  background: #FFD53B;
+}
+
+
+/* Total */
+.subtotal, .fee, .total {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.subtotal p, .fee p, .total p {
+  font-weight: 600;
+  color: #5A5A5A;
+}
+
+.subtotal p:nth-child(2), .fee p:nth-child(2) {
+  font-weight: 600;
+  color: #121212;
+}
+
+.total {
+  margin-top: 25px;
+}
+
+.total p {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.total p:nth-child(2) {
+  color: #121212;
+}
+
+hr {
+  border-color: #D9D9D9;
+  border-style: solid;
+}
+
+
+/* Product */
+.product-container {
+  margin: 50px 0 0 25px;
+}
+
+.product-container img {
+  /* width: 630px; */
+  height: 960px;
+  border-radius: 20px;
+}
+
+.product-container img:hover {
+  outline: 3px solid #FFC800;
+}
+
+
+/* --- Footer --- */
+.footer {
+  padding: 100px 0 40px;
+}
+
+.footer-txt p {
+  display: flex;
+  justify-content: center;
+  color: #121212;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.footer-txt:hover p {
+  color: #FFC800;
+}

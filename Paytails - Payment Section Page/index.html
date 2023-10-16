@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Payment Details: Form Validation</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icon -->
+    <link rel="icon" href="img/icon.png" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Payment -->
+      <div class="payment-container">
+        <div class="payment-title">
+          <p>Payment details</p>
+        </div>
+
+        <!-- Form -->
+        <form action="" method="post">
+          <!-- Full Name Input -->
+          <div class="input-container">
+            <label for="full-name">Full Name</label>
+            <input
+              type="text"
+              name="full-name"
+              id="full-name"
+              placeholder="Luqman Herifa"
+              required
+            />
+          </div>
+          <div class="half-input">
+            <!-- First Name Input -->
+            <div>
+              <label for="first-name">First Name</label>
+              <input
+                type="text"
+                name="first-name"
+                id="first-name"
+                placeholder="Luqman"
+                required
+              />
+            </div>
+            <!-- Last Name Input -->
+            <div>
+              <label for="last-name">Last Name</label>
+              <input
+                type="text"
+                name="last-name"
+                id="last-name"
+                placeholder="Herifa"
+                required
+              />
+            </div>
+          </div>
+          <!-- Email Input -->
+          <div class="input-container">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="luqmanherifa@gmail.com"
+              required
+            />
+          </div>
+          <!-- Phone Input -->
+          <div class="input-container">
+            <label for="phone">Phone</label>
+            <input
+              type="tel"
+              name="phone"
+              id="phone"
+              placeholder="082814231615"
+              required
+              pattern="(\+62|62|0)8[1-9][0-9]{6,9}$"
+            />
+          </div>
+          <div class="half-input">
+            <!-- Date Input -->
+            <div>
+              <label for="date">Date</label>
+              <input type="date" name="date" id="date" required />
+            </div>
+            <!-- Postal Code Input -->
+            <div>
+              <label for="postal-code">Postal Code</label>
+              <input
+                type="text"
+                name="postal-code"
+                id="postal-code"
+                placeholder="14952"
+                required
+                pattern="^([1-9])[0-9]{4}$"
+                minlength="5"
+                maxlength="5"
+              />
+            </div>
+          </div>
+
+          <!-- Promo Checkbox -->
+          <div class="promo">
+            <input type="checkbox" name="promo" id="promo" />
+            <label for="promo">I have promo code</label>
+          </div>
+
+          <!-- Total -->
+          <div class="subtotal">
+            <p>Subtotal</p>
+            <p>$165</p>
+          </div>
+
+          <div class="fee">
+            <p>Fee</p>
+            <p>$9</p>
+          </div>
+
+          <hr />
+
+          <div class="total">
+            <p>Total amount</p>
+            <p>$174</p>
+          </div>
+
+          <!-- Submit Button -->
+          <div>
+            <button type="submit">Continue to payment</button>
+          </div>
+        </form>
+
+        <!-- Product -->
+      </div>
+      <div class="product-container">
+        <div>
+          <a href=""><img src="img/product-images.png" alt="" /></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <div class="footer-txt">
+        <a href="https://github.com/luqmanherifa" target="_blank">
+          <p>© 2023 • Built by Luqman Herifa</p>
+        </a>
+      </div>
+    </div>
+    <script src="" async defer></script>
+  </body>
+</html>
