@@ -1,4 +1,4 @@
-# Web Learning Journey
+# Web Development Journey
 
 *A journey of a thousand commits begins with a single push.*
 
