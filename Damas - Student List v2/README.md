@@ -3,5 +3,5 @@
 ### Interface
 ![Interface](https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/public/works/damasv2.png)
 
-- Deployment: [damasv2-luqmanherifa.infinityfreeapp.com](http://damasv2-luqmanherifa.infinityfreeapp.com)
+- Live: [damasv2-luqmanherifa.infinityfreeapp.com](http://damasv2-luqmanherifa.infinityfreeapp.com)
 - Date created: March 2023
