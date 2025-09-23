@@ -1,0 +1,83 @@
+.navigation {
+  background-color: #423287;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-group-1 {
+  display: flex;
+  align-items: center;
+  margin-left: 60px;
+}
+
+.icon-nav {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.icon-nav img {
+  width: 40px;
+}
+
+.icon-nav a {
+  font-family: 'IBM Plex Sans';
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-right: 70px;
+}
+
+.item-nav ul {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.item-nav li a {
+  color: #AFA1EC;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+.item-nav li a:hover {
+  color: #E7E2F9;
+}
+
+.link-nav {
+  margin-right: 60px;
+}
+
+.link-nav ul {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.link-nav li a {
+  color: #AFA1EC;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+.link-nav li:nth-child(1) a:hover {
+  color: #E7E2F9;
+}
+
+.link-nav li:nth-child(2) {
+  border: 1px solid #AFA1EC;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.link-nav li:nth-child(2):hover {
+  background-color: #241465;
+}

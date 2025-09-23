@@ -1,0 +1,12 @@
+* {
+  /* outline: 1px solid red; */
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
