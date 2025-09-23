@@ -1,0 +1,89 @@
+/* Tablet Version */
+@media (min-width: 768px) and (max-width: 992px) {
+  
+  /* ---------- Navbar ---------- */
+  .navbar-mobile {
+    order: 3;
+  }
+
+  .navbar-nav {
+    margin-top: 7px;
+  }
+
+  .nav-link {
+    margin: 0px 0px;
+    text-align: right;
+  }
+  
+  .navbar-toggler {
+    width: 25px;
+    height: 25px;
+    border: none;
+  }
+
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+
+  .icon-toggler {
+    margin-left: -9px;
+  }
+
+  .icon-toggler:hover {
+    color: #006FE6;
+  }
+
+  /* ---------- Home ---------- */
+  .home {
+    margin-bottom: 70px;
+  }
+
+  /* ---------- About ---------- */
+  .about {
+    margin-bottom: 70px;
+  }
+
+  /* ---------- Experience ---------- */
+  .experience {
+    margin-bottom: 70px;
+  }
+
+  /* ---------- Project ---------- */
+  .content-project {
+    margin-left: -12px;
+  }
+
+  .text-project-right-1, .text-project-left-1 {
+    font-size: 1.3vw;
+    margin-bottom: 5px;
+  }
+
+  .text-project-right-2, .text-project-left-2 {
+    font-size: 2vw;
+  }
+
+  .text-project-right-3, .text-project-left-3 {
+    font-size: 1.4vw;
+    padding: 17px;
+    margin: -10px 0 10px;
+  }
+
+  .text-project-right-4, .text-project-left-4 {
+    font-size: 1.3vw;
+  }
+
+  .img-project-left, .img-project-right {
+    width: 46vw;
+  }
+
+  /* ---------- Other Project ---------- */
+  .other-project {
+    margin-bottom: 70px;
+  }
+
+  /* ---------- Contact ---------- */
+  .contact {
+    margin-bottom: 70px;
+  }
+
+}

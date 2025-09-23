@@ -1,0 +1,105 @@
+/* Project */
+.project {
+  margin-bottom: 0px;
+}
+
+/* Object - Project */
+.content-project {
+  width: 900px;
+}
+
+.border-project {
+  color: #DEDEDE;
+  border-bottom: 3px solid;
+  margin: 40px auto;
+  width: 95px;
+}
+
+/* Title - Project */
+.title-project {
+  color: #006FE6;
+  font-size: 25px;
+  font-weight: 700;
+  width: 900px;
+  margin: 40px 0 30px 0;
+}
+
+.title-project::after {
+  content: "";
+  display: block;
+  position: relative;
+  top: -20px;
+  height: 3px;
+  background-color: #006FE6;
+  margin-left: 110px;
+  border-radius: 10px;
+}
+
+/* Text - Project */
+.text-project-align-right {
+  text-align: right;
+}
+
+.text-project-align-left {
+  text-align: left;
+}
+
+.text-project-right-1, .text-project-left-1 {
+  font-size: 13px;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+
+.text-project-right-2, .text-project-left-2 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.text-project-right-2:hover, .text-project-left-2:hover {
+  color: #006FE6;
+}
+
+.text-project-right-3, .text-project-left-3 {
+  font-size: 14px;
+  background-color: #006FE6;
+  padding: 20px;
+  color: #F5F5F5;
+  border-radius: 3px;
+  line-height: 1.7;
+  margin: -5px 0 15px;
+}
+
+.text-project-right-4, .text-project-left-4 {
+  font-size: 13px;
+  margin-bottom: 0px;
+}
+
+/* Image - Project */
+.img-project-zoomin img {
+  transform: scale(1);
+  transition: 0.3s ease-in-out;
+}
+
+.img-project-zoomin:hover img {
+  transform: scale(1.2);
+}
+
+.figure-project-right, .figure-project-left {
+  overflow: hidden;
+  cursor: pointer;
+  margin-bottom: 0px;
+  border-radius: 4px;
+}
+
+.img-project-left, .img-project-right {
+  width: 485px;
+  padding: 0px;
+  display: block;
+  margin: auto;
+}
+
+/* Icon - Project */
+.icon-project-arrow {
+  color: #006FE6;
+  width: 17px;
+}

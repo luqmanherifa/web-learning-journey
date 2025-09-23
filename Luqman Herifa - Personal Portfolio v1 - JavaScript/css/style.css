@@ -1,0 +1,67 @@
+/* Root */
+:root {
+  --primary-color: #F5F5F5;
+  --secondary-color: #313F4E;
+  --tertiary-color: #006FE6;
+  --quaternary-color:#5DABFF;
+  --quinary-color: #001022;
+  --senary-color: #003670;
+}
+
+/* Scrollbar */
+body::-webkit-scrollbar {
+  width: 12px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--tertiary-color);
+  border-radius: 10px;
+  border: 3px solid var(--primary-color);
+}
+
+body::-webkit-scrollbar-track {
+  background-color: var(--primary-color);
+}
+
+/* Select */
+* {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  /* outline: 1px solid green; */
+}
+
+/* Dark */
+.dark-mode {
+  --primary-color: #001022;
+  --secondary-color: #F5F5F5;
+}
+
+/* Top */
+#btnTop {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  border: none;
+  width: 33px;
+  height: 33px;
+  background-color: transparent;
+}
+
+.icon-up {
+  color: #5DABFF;
+  background-color: transparent;
+  margin-left: -6px;
+}
+
+.icon-up:hover {
+  color: #006FE6;
+}
+
+/* Link */
+a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
+}

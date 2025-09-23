@@ -1,0 +1,16 @@
+/* Footer */
+.footer {
+  padding: 1px;
+}
+
+/* Text - Footer */
+.text-footer {
+  text-align: center;
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+
+.text-footer:hover {
+  color: #006FE6;
+}

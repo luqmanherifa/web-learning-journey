@@ -1,0 +1,67 @@
+/* About */
+.about {
+  margin-bottom: 93px;
+}
+
+/* Object - Project */
+.content-about {
+  width: 570px;
+}
+
+/* Title - About */
+.title-about {
+  color: #006FE6;
+  font-size: 25px;
+  font-weight: 700;
+  width: 570px;
+  margin: 40px 0 30px 0;
+}
+
+.title-about::after {
+  content: "";
+  display: block;
+  position: relative;
+  top: -20px;
+  height: 3px;
+  background-color: #006FE6;
+  margin-left: 140px;
+  border-radius: 10px;
+}
+
+/* Text - About */
+.content-text-about {
+  width: 350px;
+}
+
+.text-about {
+  line-height: 1.7;
+  margin-bottom: 13px;
+}
+
+/* Image - About */
+.content-img-about {
+  width: 220px;
+}
+
+.img-about-zoomin img {
+  transform: scale(1);
+  transition: 0.3s ease-in-out;
+}
+
+.img-about-zoomin:hover img {
+  transform: scale(1.2);
+}
+
+.figure-about {
+  width: 188px;
+  overflow: hidden;
+  cursor: pointer;
+  padding: 0px;
+  border-radius: 4px;
+  box-shadow: 8px 8px #006FE6;
+  border: 1px solid #006FE6;
+}
+
+.img-about {
+  width: 188px;
+}

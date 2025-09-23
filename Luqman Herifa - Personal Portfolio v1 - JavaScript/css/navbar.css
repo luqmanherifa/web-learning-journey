@@ -1,0 +1,41 @@
+/* Navbar */
+.navbar {
+  box-shadow: 0px 2px 4px 0px rgba(128, 128, 128, .2);
+  padding: 12px 0;
+}
+
+.nav-link {
+  color: var(--secondary-color);
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0 10px;
+}
+
+.nav-link:hover {
+  color: #006FE6 !important;
+}
+
+.bg-navbar {
+  background-color: var(--primary-color);
+}
+
+/* Icon - Navbar */
+.icon-navbrand img {
+  width: 25px;
+  height: 25px;
+}
+
+.icon-dark {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  text-align: center;
+}
+
+#icon-dark {
+  margin-top: 12px;
+}
+
+#icon-dark:hover {
+  color: #006FE6;
+}

@@ -1,0 +1,65 @@
+/* Home */
+.home {
+  margin-bottom: 109px;
+  padding: 1px;
+}
+
+/* Object - Home */
+.content-home {
+  width: 900px;
+}
+
+/* Text - Home */
+.text-home-1 {
+  margin: 50px 0 10px 3px;
+}
+
+.big-heading-1, .big-heading-2 {
+  margin: 0px;
+  font-size: 55px;
+  font-weight: 700;
+  color: #006FE6;
+}
+
+.big-heading-2 {
+  color: #5DABFF;
+}
+
+.text-home-2 {
+  margin: 20px 0 30px 3px;
+  width: 420px;
+  line-height: 1.7;
+}
+
+/* Button - Home */
+.btn-home {
+  background-color: white;
+  border-color: #006FE6;
+  color: #006FE6;
+  border-radius: 10px;
+  margin: 0 0 50px 3px;
+  padding: 10px 30px;
+  font-weight: 600;
+  box-shadow: 0px 6px #006FE6;
+  border: 2px solid #006FE6;
+  font-size: 16px;
+}
+
+.btn-home:hover {
+  background-color: #E6F2FF !important;
+  color: #006FE6 !important;
+  border: 2px solid #006FE6 !important;
+}
+
+.btn-home:active {
+  position: relative;
+  top: 6px;
+  box-shadow: none;
+}
+
+/* Icon - Home */
+.icon-email {
+  margin-right: 5px;
+  color: #006FE6;
+  background-color: white;
+}
