@@ -3,4 +3,3 @@ A journey of a thousand commits begins with a single push. A collection of some 
 
 ## Preview
 ![Preview](https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/public/works/weblj.png)
-
