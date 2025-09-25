@@ -1,0 +1,12 @@
+{
+  "name": "todolist-project",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "concurrently -k \"cd backend && npm run dev\" \"cd frontend && npm run serve\"",
+    "migrate": "node ./backend/config/sequelize.js"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
