@@ -1,0 +1,15 @@
+INSERT INTO tbl_employee (employee_id, employee_name, employee_manager_id) VALUES
+(1,  'Mary',   NULL),
+(2,  'Fred',   1),
+(3,  'Mary',   2),
+(4,  'Vilo',   3),
+(5,  'Mora',   2),
+(6,  'Bill',   5),
+(7,  'John',   6),
+(8,  'George', 1),
+(9,  'Chila',  8),
+(10, 'Moya',   8),
+(11, 'Silvy',  1),
+(12, 'Hans',   11),
+(13, 'Michael',11),
+(14, 'Richard',11);
